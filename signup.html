@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .con{
+            height: 100vh;
+            background: linear-gradient(90deg, skyblue, purple);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        form{
+            height: 70%;
+            width: 25%;
+            background-color: white;
+            border-radius: 20px;
+        }
+        button{
+            height: 40px;
+            width: 100%;
+            background: linear-gradient(90deg, skyblue, purple);
+            border: none;
+            color: white;
+            border-radius: 10px;
+        }
+        h1{
+            margin-top: 30px;
+        }
+        input{
+            height: 20px;
+            /* background-color: lightgray; */
+            border: 1px solid lightgray;
+            border-radius: 8px;
+        }
+        .input,.button{
+            width: 80%;
+            margin: auto;
+            margin-top: 5%;
+        }
+        input,p{
+            margin-top: 1%;
+            margin-bottom: 2%;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <form action="">
+            <h1 align="center"><b>SignUp Form</b></h1>
+            <div class="input">
+                <label for=""><b>First Name</b></label><br>
+                <input type="text"><br>
+                <label for=""><b>Last Name</b></label><br>
+                <input type="text"><br>
+                <label for=""><b>Gender</b></label>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female<br>
+                <label for=""><b>Phone number</b></label><br>
+                <input type="tel"><br>
+                <label for=""><b>Date Of Birth</b></label><br>
+                <input type="date"><br>
+                <label for=""><b>Email</b></label><br>
+                <input type="email"><br>
+                <label for=""><b>Confirm Email</b></label><br>
+                <input type="email"><br>
+                <label for=""><b>Password</b></label><br>
+                <input type="password"><br>
+                <label for=""><b>Confirm Password</b></label><br>
+                <input type="password">
+            </div>
+            <div class="button">
+                <input type="checkbox">Terms and condition <br>
+                <button><b>Submit</b></button>
+                <p align="center">Already Member? <a href="index.html"><i>Log in</i></a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
